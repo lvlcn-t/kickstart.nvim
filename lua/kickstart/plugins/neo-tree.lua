@@ -22,6 +22,10 @@ return {
       window = {
         mappings = {
           ['\\'] = 'close_window',
+          ['<space>'] = 'none',
+          ['l'] = 'toggle_node',
+          ['h'] = 'close_node',
+          ['<cr>'] = 'open',
         },
       },
     },
